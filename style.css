@@ -1,0 +1,19 @@
+label {
+    display: block;
+    
+    font:
+    1rem 'arial',
+    sans-serif;
+}
+input,
+label {
+    margin: 0.4rem;
+}
+#video {
+    width: 640;
+    height: 480;
+}
+#canvas {
+    width: 640;
+    height: 480;
+}
