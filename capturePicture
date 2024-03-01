@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="./script.js"></script>
-
-   <label for="Id"><strong>No Documento</strong></label>
-   <input type="number" id="id" placeholder="Id">
+    <script src="./cameraAccess.js"></script>
+</head>
+<body> 
+   <label for="nombreImagen"><strong>No Documento:</strong></label>
+   <input type="text" id="nombreImagen" placeholder="No Documento">
     <br>
-   <video id="video"></video>
-   <button onclick="capturarFoto()">capturar</button>
+   <video id="video" width="400" height="400" autoplay></video>
+   <button onclick="tomarFoto()">capturar</button>
     <br> 
-   <canvas id="canvas" style:"display:none;"></canvas>
+   <canvas id="canvas" style="display:none;" ></canvas>
 
 </body>
 </html>

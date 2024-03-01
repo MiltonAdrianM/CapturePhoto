@@ -10,10 +10,10 @@ label {
     margin: 0.4rem;
 }
 #video {
-    width: 640;
-    height: 480;
+    width: 400;
+    height: 400;
 }
 #canvas {
-    width: 640;
-    height: 480;
+    width: 400 ;
+    height: 400;
 }
