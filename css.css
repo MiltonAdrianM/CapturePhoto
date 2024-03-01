@@ -1,0 +1,10 @@
+label {
+    display: block;
+    font:
+    1rem 'Times New Roman',
+    sans-serif;
+}
+input,
+label {
+    margin: 0.4rem 0;
+}
